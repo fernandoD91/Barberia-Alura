@@ -1,0 +1,129 @@
+
+
+body{
+    /* background-color: #b4b4b4; */
+    color: #fbf3ef;
+    font-size: 1.25rem;
+    
+    /* justify-content: flex-end; */
+    /* justify-items: flex-end; */
+}
+
+/* #banner{
+    width: 100%;
+} */
+
+/* HEADER */
+header {
+    background-color: #0088e0;
+}
+.caja {
+    width: 80%;
+    position: relative;
+    margin: 0 auto;
+    /* height: 20vh; */
+}
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+nav li {
+    display: inline;
+    margin-left: 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #fbf3ef;
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+/* FIN HEADER */
+
+/* -----------INICIO MAIN----------------- */
+.principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: space-evenly; */
+    padding: 10px;
+    height: 80vh;
+    background-image:url(../img/banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    
+    /* background-size: 100% 100%; */
+    /* width: 100%; */
+}
+
+.tituloCentralizado{
+    text-align: center;
+    font-size: 2rem;
+    background-color: #0088e0;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    padding: 1rem;
+    margin: 2rem;
+    
+}
+
+.p-fondo-rojo {
+    text-align: center;
+    font-size: 1.5rem;
+    background-color: #e24c3b;
+    width: 70vw;
+    border-radius: 10px;
+    padding: 0.5rem;
+    margin: 2rem;
+}
+
+#mision {
+    text-align: center;
+    padding: 0.5rem;
+    font-size: 2rem;
+    background-color: #0088e0;
+    border-radius: 10px;
+    margin: 2rem;
+}
+
+.diferenciales{
+    background-color: #0088e0;
+    padding: 20px;
+}
+
+h3{
+    text-align: center;
+}
+
+.items{
+    font-style: italic;
+}
+
+.ul-diferenciales{
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    width: 40%;
+}
+
+.imgDiferenciales{
+    width: 50%;
+}
+
+
+/* -------------------FOOTER--------------------- */
+footer {
+    text-align: center;
+    background: url(../img/Servicios/bg.jpg);
+    padding: 25px;
+}
+footer .copyright {
+    color: #fbf3ef;
+    font-size: 1rem;
+    margin: 1rem;
+}
+/* -------------------Fin Footer------------------ */
