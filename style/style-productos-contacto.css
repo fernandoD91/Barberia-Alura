@@ -38,29 +38,38 @@ nav a {
     text-decoration: none;
     text-shadow: 3px 3px #000000;
 }
-/* FIN HEADER */
 nav a:hover {
     color: gold;
 }
+/* FIN HEADER */
 
+/* --------- */
 /* Productos */
+/* --------- */
+main{
+    background-image: url(../img/banner2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .productos {
-    width: 80%;
-    /* position: relative; */
+    position: relative;
     margin: 0 auto;
-    padding: 30px;
+    padding: 1px;
+    text-align: center;
 }
 
 .productos li {
     display: inline-block;
     text-align: center;
-    width: 30%;
+    width: 28%;
     vertical-align: top;
-    /* background-color: grey; */
-    margin: 5% 1.5%;
-    padding: 20px 10px;
+    margin: 10% .5rem;
+    margin-left: auto;
+    padding: 20px auto;
     border: 2px solid #000000;
     border-radius: 25px;
+    color: #fbf3ef;
+    text-shadow: 4px 3px #000000;
 }
 
 .productos li:hover {
@@ -72,7 +81,7 @@ nav a:hover {
 }
 
 .productos li:active .producto-tipo {
-    font-size: 2.1rem;
+    font-size: 2rem;
 }
 
 li img {
@@ -80,19 +89,17 @@ li img {
 }
 /* H2 */
 .producto-tipo {
-    font-size: 1.9rem;
-    font-weight: bold;
+    font-size: 1.8rem;
     text-align: center;
     padding-top: 1em;
 }
 
 .producto-descripcion {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
 }
 
 .producto-precio {
-    font-size: 1.5rem;
-    font-weight: bold;
+    font-size: 1.2rem;
     margin-top: 10px;
 }
 
@@ -108,6 +115,7 @@ footer .copyright {
 }
 /* --------------------------------------------------- */
 /* configurando CONTACTO.html */
+/* --------------------------------------------------- */
 
 #contacto-principal {
     width: 70%;
@@ -282,8 +290,7 @@ td {
 }
 
 @media screen and (max-width:480px) {
-    *{
-    }
+
     .caja{
         text-align: center;
     }
