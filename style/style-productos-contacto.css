@@ -43,8 +43,7 @@ nav a:hover {
     color: gold;
 }
 
-/* MAIN */
-
+/* Productos */
 .productos {
     width: 80%;
     /* position: relative; */
@@ -179,9 +178,9 @@ td {
 /*------------Inicio de CSS index.html--------------- */
 
 #banner {
+    display: block;
     width: 100%;
-    
-    /* height: auto; */
+    height: 100%;
 }
 
 .principal {
